@@ -10,16 +10,20 @@ body {
   position: relative;
   margin-top: -10em;
   margin-bottom: 0px;
-  margin-left: 42.5%;
+  /* margin-left: 42.5%; */
+  margin-left: 43.1%;
 }
 
 /* ============================================== Candle
 */
 .bg {
   width: 100%;
-  background: #ee9ca7;
-  background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
-  background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%);
+  /* background: #ee9ca7; */
+  /* background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%); */
+  /* background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%); */
+  background: linear-gradient(to bottom right, #a1c4fd 0%, #a1c4fd 100%);
+  /* background: linear-gradient(to bottom right, #a1c4fd 0%, #c2e9fb 100%); */
+  
 }
 .velas {
   background: #ffffff;
@@ -64,7 +68,8 @@ body {
   border-radius: 100%;
   position: absolute;
   top: -20px;
-  left: 70%;
+  /* left: 70%; */
+  left: 29%;
   margin-left: -2.2px;
   width: 6.66666667px;
   height: 18px;
@@ -180,12 +185,15 @@ body {
   display: block;
   width: 50px;
   height: 50px;
-  background-color: rgba(255, 255, 255, 0.15);
+  /* background-color: rgba(255, 255, 255, 0.15); */
   bottom: -160px;
   -webkit-animation: square 30s infinite;
   animation: square 30s infinite;
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
+  background: url('../img/star.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .bg-bubbles li:nth-child(1) {
   left: 10%;
@@ -393,8 +401,8 @@ body {
 
 .happy {
 	position:absolute;
-	left:41%;
-	top:49%;
+	left:42%;
+	top:20em;
 	opacity: 1;
 	animation: happybirthdays 10s;
 	animation-delay: 0s;
@@ -402,34 +410,34 @@ body {
 @keyframes happybirthdays {
 	0% {
 		position:absolute;
-		top:45%;
+		top:20em;
 		opacity: 0;
 	}
 	70% {
 		position:absolute;
-		top:45%;
+		top:20em;
 		opacity: 0;
 	}
 	100% {
 		position:absolute;
-		top:49%;
+		top:20em;
 		opacity: 1;
 	}
 }
 @-webkit-keyframes happybirthdays {
 	0% {
 		position:absolute;
-		top:45%;
+		top:20em;
 		opacity: 0;
 	}
 	70% {
 		position:absolute;
-		top:45%;
+		top:20em;
 		opacity: 0;
 	}
 	100% {
 		position:absolute;
-		top:49%;
+		top:20em;
 		opacity: 1;
 	}
 }

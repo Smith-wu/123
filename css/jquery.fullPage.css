@@ -90,6 +90,7 @@ html, body {
 }
 #fp-nav {
     position: fixed;
+    display: none;
     z-index: 100;
     margin-top: -32px;
     top: 50%;

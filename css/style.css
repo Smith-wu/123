@@ -33,6 +33,7 @@
   animation: square 30s infinite;
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
+  /* background: url('../img/timg.gif'); */
 }
 .bg-bubbles li:nth-child(1) {
   left: 10%;
@@ -1859,7 +1860,7 @@
 	background-color: rgba(255,255,255,0.6);
 	border-radius: 8px;
 	position: absolute;
-	left: 42%;
+	left: 30%;
 	top:10%;
 	overflow: hidden;
 	opacity: 0;
@@ -1883,7 +1884,7 @@
 	border-radius: 2px; 
 	margin-left: 24px;
 	position: absolute;
-	right: 58%;
+	right: 70%;
 	top: 14%;
 	opacity: 0;
 	-webkit-transform: scale(0.5, 0.5);
